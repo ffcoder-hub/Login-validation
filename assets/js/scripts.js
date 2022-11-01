@@ -13,12 +13,6 @@ jQuery(document).ready(function( $ ){
             confirm: $('#floatingConfirm').val()
         }
 
-        // console.log(data);
-
-        // $.post('/validate.php', data, function(result){
-        //     console.log(result);
-        // });
-
         $.ajax({
             url: '/validate.php',
             method: 'post',
